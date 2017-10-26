@@ -1,13 +1,13 @@
 {
     "name": "vamtiger-regex-leading-dash",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Matches a string with leading dash(es).",
     "repository": {
-      "type": "git",
-      "url": "https://github.com/vamtiger-project/vamtiger-regex-leading-dash.git"
+        "type": "git",
+        "url": "https://github.com/vamtiger-project/vamtiger-regex-leading-dash.git"
     },
     "bugs": {
-      "url": "https://github.com/vamtiger-project/vamtiger-argv/issues"
+        "url": "https://github.com/vamtiger-project/vamtiger-argv/issues"
     },
     "main": "Library/index.js",
     "author": "Vamtiger Immortalles",
