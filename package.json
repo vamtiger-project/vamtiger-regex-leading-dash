@@ -1,6 +1,6 @@
 {
     "name": "vamtiger-regex-leading-dash",
-    "version": "0.0.0",
+    "version": "1.0.0",
     "description": "Matches a string with leading dash(es).",
     "main": "Library/index.js",
     "author": "Vamtiger Immortalles",
