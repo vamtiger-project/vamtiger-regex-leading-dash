@@ -1,0 +1,24 @@
+{
+    "name": "vamtiger-regex-leading-dash",
+    "version": "0.0.0",
+    "description": "Matches a string with leading dash(es).",
+    "main": "Library/index.js",
+    "author": "Vamtiger Immortalles",
+    "scripts": {
+        "test": "mocha Library/Test --recursive",
+        "build": "tsc"
+    },
+    "license": "MIT",
+    "devDependencies": {
+        "@types/chai": "^4.0.4",
+        "@types/mocha": "^2.2.44",
+        "@types/sinon": "^2.3.7",
+        "@types/typescript": "^2.0.0",
+        "@types/xregexp": "^3.0.29",
+        "chai": "^4.1.2",
+        "mocha": "^4.0.1",
+        "sinon": "^4.0.2",
+        "typescript": "^2.5.3",
+        "xregexp": "^3.2.0"
+    }
+}
