@@ -15,12 +15,12 @@
                 "--timeout",
                 "999999",
                 "--colors",
-                "${workspaceRoot}/Library/Test/**/*.spec.js",
+                "${workspaceRoot}/build/test/**/*.spec.js",
                 "--recursive"
             ],
-            "internalConsoleOptions": "openOnSessionStart",
+            // "internalConsoleOptions": "openOnSessionStart",
             "outFiles": [
-                "${workspaceRoot}/Library/**/*.js"
+                "${workspaceRoot}/build/**/*.js"
             ]
         }
     ]

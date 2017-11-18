@@ -12,7 +12,7 @@
     "main": "Library/index.js",
     "author": "Vamtiger Immortalles",
     "scripts": {
-        "test": "mocha Library/Test --recursive",
+        "test": "mocha build/test --recursive",
         "build": "tsc"
     },
     "license": "MIT",
