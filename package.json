@@ -9,7 +9,7 @@
     "bugs": {
         "url": "https://github.com/vamtiger-project/vamtiger-argv/issues"
     },
-    "main": "Library/index.js",
+    "main": "build/index.js",
     "author": "Vamtiger Immortalles",
     "scripts": {
         "test": "mocha build/test --recursive",
