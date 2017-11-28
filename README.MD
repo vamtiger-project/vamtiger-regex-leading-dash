@@ -47,8 +47,8 @@ const match = XRegExp.exec(input, regex);
 
 /**
  * if (match) {
- *     // Yep, the input string has a leading dash
- *     match[0] === '-';
+ *     // Yep, the input string has a leading dashes
+ *     match[0] === '--';
  *     match[1] === 'SomeInputStringWithALeadingDash';
  *     match.dash === '--';
  *     match.afterDash === 'SomeInputStringWithALeadingDashes';
