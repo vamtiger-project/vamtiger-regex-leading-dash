@@ -1,6 +1,6 @@
 {
     "name": "vamtiger-regex-leading-dash",
-    "version": "1.0.2-0",
+    "version": "1.0.2",
     "description": "Matches a string with leading dash(es).",
     "repository": {
         "type": "git",
