@@ -13,7 +13,8 @@
     "author": "Vamtiger Immortalles",
     "scripts": {
         "test": "mocha build/test --recursive",
-        "build": "tsc"
+        "build": "tsc",
+        "commit": "vamtigerNodeTypescriptCommit --push --publish"
     },
     "license": "MIT",
     "devDependencies": {
@@ -23,7 +24,8 @@
         "@types/xregexp": "^3.0.29",
         "chai": "^4.1.2",
         "mocha": "^4.0.1",
-        "typescript": "^2.5.3"
+        "typescript": "^2.5.3",
+        "vamtiger-node-typescript-commit": "^0.0.16"
     },
     "dependencies": {
         "xregexp": "^3.2.0"

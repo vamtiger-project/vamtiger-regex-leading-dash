@@ -28,6 +28,10 @@ balanced-match@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/balanced-match/-/balanced-match-1.0.0.tgz#89b4d199ab2bee49de164ea02b89ce462d71b767"
 
+bluebird@^3.5.1:
+  version "3.5.1"
+  resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.5.1.tgz#d9551f9de98f1fcda1e683d17ee91a0602ee2eb9"
+
 brace-expansion@^1.1.7:
   version "1.1.8"
   resolved "https://registry.yarnpkg.com/brace-expansion/-/brace-expansion-1.1.8.tgz#c07b211c7c952ec1f8efd51a77ef0d1d3990a292"
@@ -186,6 +190,25 @@ type-detect@^4.0.0:
 typescript@*, typescript@^2.5.3:
   version "2.5.3"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.5.3.tgz#df3dcdc38f3beb800d4bc322646b04a3f6ca7f0d"
+
+vamtiger-argv@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/vamtiger-argv/-/vamtiger-argv-1.2.0.tgz#4962fcf6aa151ac80b5917fb598de331772d5733"
+
+vamtiger-bash@^0.0.11:
+  version "0.0.11"
+  resolved "https://registry.yarnpkg.com/vamtiger-bash/-/vamtiger-bash-0.0.11.tgz#65bf9ea1206c1e6982522010caf6b66a1bff9e39"
+  dependencies:
+    bluebird "^3.5.1"
+
+vamtiger-node-typescript-commit@^0.0.16:
+  version "0.0.16"
+  resolved "https://registry.yarnpkg.com/vamtiger-node-typescript-commit/-/vamtiger-node-typescript-commit-0.0.16.tgz#5f37c10f6369396346b4bbd6b524cd824eaebf6b"
+  dependencies:
+    bluebird "^3.5.1"
+    vamtiger-argv "^1.2.0"
+    vamtiger-bash "^0.0.11"
+    xregexp "^3.2.0"
 
 wrappy@1:
   version "1.0.2"
