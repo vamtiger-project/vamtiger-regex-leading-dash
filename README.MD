@@ -1,4 +1,4 @@
-# VAMTIGER Bash
+# VAMTIGER Regex Leading Dash
 A [regular expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) to match leading **_dash_** character(s) for a defined input string.
 
 ## Installation
