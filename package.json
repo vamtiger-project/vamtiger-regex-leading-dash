@@ -12,6 +12,12 @@
     "main": "build",
     "types": "build/index.d.ts",
     "author": "Vamtiger Immortalles",
+    "keywords": [
+        "vamtiger",
+        "regex",
+        "leading",
+        "dash"
+    ],
     "scripts": {
         "test": "mocha build/test --recursive",
         "build": "tsc",
